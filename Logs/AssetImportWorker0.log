@@ -1,0 +1,580 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.20f1 (be552157821d) revision 12473633'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19044.1586; Version 2009; 64bit' Language: 'ko' Physical Memory: 16319 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\2021.1.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/TravelAnimalProto
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64680
+Successfully changed project path to: C:/TravelAnimalProto
+C:/TravelAnimalProto
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 106.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.20f1 (be552157821d)
+[Subsystems] Discovering subsystems at path C:/2021.1.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/TravelAnimalProto/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4018 MB
+    Driver:   30.0.14.7111
+Initialize mono
+Mono path[0] = 'C:/2021.1.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/2021.1.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/2021.1.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/2021.1.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002762 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 105.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.783 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1783ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (497ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (168ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (239ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007874 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\TravelAnimalProto\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\TravelAnimalProto\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 101.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.292 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1293ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1070ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (356ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (458ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3711 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.1 MB.
+System memory in use after: 138.3 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4169.
+Total: 3.890400 ms (FindLiveObjects: 0.333600 ms CreateObjectMapping: 0.306100 ms MarkObjects: 3.166800 ms  DeleteObjects: 0.082900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/MiniGame/Scene/Main_Scene.unity
+  artifactKey: Guid(776cd9d9038a4ab4599675ecec365ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Scene/Main_Scene.unity using Guid(776cd9d9038a4ab4599675ecec365ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0027d256e1cc8775636d7ed2ab0d73') in 0.018939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.794315 seconds.
+  path: Assets/MiniGame/Scene/StageSelectScene.unity
+  artifactKey: Guid(8d5afd69d026c104ea2a33ca5a165797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Scene/StageSelectScene.unity using Guid(8d5afd69d026c104ea2a33ca5a165797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3796bd2ed1739749da1f590539448089') in 0.008132 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007192 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\TravelAnimalProto\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\TravelAnimalProto\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.100 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1100ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (907ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (349ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (297ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3704 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.5 MB.
+System memory in use after: 137.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4172.
+Total: 3.565000 ms (FindLiveObjects: 0.273800 ms CreateObjectMapping: 0.168300 ms MarkObjects: 3.099000 ms  DeleteObjects: 0.022200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007359 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\TravelAnimalProto\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\TravelAnimalProto\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.115 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1115ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (917ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (351ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (303ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3704 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.6 MB.
+System memory in use after: 137.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4175.
+Total: 3.549500 ms (FindLiveObjects: 0.341000 ms CreateObjectMapping: 0.237600 ms MarkObjects: 2.951300 ms  DeleteObjects: 0.018800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2144.535454 seconds.
+  path: Assets/Animal Travel/Animation/JUMP.anim
+  artifactKey: Guid(f8c08f9ddd13b644185ea4d878cb1a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animal Travel/Animation/JUMP.anim using Guid(f8c08f9ddd13b644185ea4d878cb1a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635fe6ef43395eef9a890eda1480303e') in 0.042753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008904 seconds.
+  path: Assets/MiniGame/Script/SceneManager/SceneLoader.cs
+  artifactKey: Guid(68f250afac591eb44bc949b36f79b64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Script/SceneManager/SceneLoader.cs using Guid(68f250afac591eb44bc949b36f79b64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e299985057f2532166d80e673b1928e') in 0.009029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054971 seconds.
+  path: Assets/Animal Travel/Animation/Main01.anim
+  artifactKey: Guid(14fb8478e4d0310478ef0ed2083ec28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animal Travel/Animation/Main01.anim using Guid(14fb8478e4d0310478ef0ed2083ec28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32b2123f60e9833ac3493b06b55b7fa') in 0.007108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019709 seconds.
+  path: Assets/MiniGame/Sound
+  artifactKey: Guid(e632b50a6cb9e7d458d1e1a8c2ae05cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Sound using Guid(e632b50a6cb9e7d458d1e1a8c2ae05cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56dd8b865836763ec36652f992b9e465') in 0.006783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040656 seconds.
+  path: Assets/MiniGame/Texture/Particle/Material/Ring01 1.mat
+  artifactKey: Guid(d36eaf42d26843a409729f023e1dc467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Texture/Particle/Material/Ring01 1.mat using Guid(d36eaf42d26843a409729f023e1dc467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d65216cf55a2f056bf77dd921ca7ed') in 0.131160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025119 seconds.
+  path: Assets/Animal Travel/Animation/Character01.controller
+  artifactKey: Guid(dc277db3dfbfe034890d9c90cc0515e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animal Travel/Animation/Character01.controller using Guid(dc277db3dfbfe034890d9c90cc0515e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfbd2b14b5c92206e95a7b3d9d19e9c') in 0.008016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020689 seconds.
+  path: Assets/DOTween/Modules
+  artifactKey: Guid(282cc85c6d32ade46a697374cc242f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Modules using Guid(282cc85c6d32ade46a697374cc242f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0286172df8b36fccc4b5c88791a170d5') in 0.005048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011569 seconds.
+  path: Assets/MiniGame/Texture/Particle/Material
+  artifactKey: Guid(6959782846783ef499f0e486780c32de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Texture/Particle/Material using Guid(6959782846783ef499f0e486780c32de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c20f18157661ea4580affdad676c72') in 0.005471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014607 seconds.
+  path: Assets/MiniGame/Script/SceneManager/StageManager.cs
+  artifactKey: Guid(ba0bb00b0cc6f3e4c9c0e54fd96f9da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Script/SceneManager/StageManager.cs using Guid(ba0bb00b0cc6f3e4c9c0e54fd96f9da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb35e86880ff459f5b215e6ea45ffd2') in 0.005174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019439 seconds.
+  path: Assets/MiniGame/Script/UI Manager
+  artifactKey: Guid(ad6ea58983b7a5c44bc06f9194549a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Script/UI Manager using Guid(ad6ea58983b7a5c44bc06f9194549a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c935a993afcaefbf38cd17441222a4') in 0.007257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048981 seconds.
+  path: Assets/MiniGame/Scene/Game52.unity
+  artifactKey: Guid(3bef5c11ae53f5c4ead71b9be4ca31dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Scene/Game52.unity using Guid(3bef5c11ae53f5c4ead71b9be4ca31dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2b6ff693509707a63e201101811c05') in 0.005820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004284 seconds.
+  path: Assets/MiniGame/Prefabs/Particle
+  artifactKey: Guid(c2cb710b7d7e54c4ca9b4e1164c3e6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Prefabs/Particle using Guid(c2cb710b7d7e54c4ca9b4e1164c3e6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a623d6d4e092a065625f9bec4cc5fc9a') in 0.005413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.080564 seconds.
+  path: Assets/MiniGame/Script
+  artifactKey: Guid(bbd5441930f6e5645b962d237e31539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Script using Guid(bbd5441930f6e5645b962d237e31539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fce933f2c292612d7a5864580ce2eba') in 0.005271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031430 seconds.
+  path: Assets/MiniGame/Mesh
+  artifactKey: Guid(f1dd151f2ad7a4a4a82906f09775f065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Mesh using Guid(f1dd151f2ad7a4a4a82906f09775f065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a323fbd1a2d9b9f136aebf141099c902') in 0.005531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014666 seconds.
+  path: Assets/DOTween/Modules/DOTweenModuleEPOOutline.cs
+  artifactKey: Guid(fadbfe8d9f477364f8d6671fa5c91a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Modules/DOTweenModuleEPOOutline.cs using Guid(fadbfe8d9f477364f8d6671fa5c91a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02663aa2807ebf6fcdf50c66552ff24') in 0.005236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007147 seconds.
+  path: Assets/MiniGame/Script/Event Manager/Wind.cs
+  artifactKey: Guid(4a29bc088cf775f4b9b1a3517b84b89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Script/Event Manager/Wind.cs using Guid(4a29bc088cf775f4b9b1a3517b84b89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c61022baa2efebbc29a1db8bac39fb') in 0.005405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006371 seconds.
+  path: Assets/Animal Travel/Animation/title01.controller
+  artifactKey: Guid(5d988f70738c73e4eb2eebf4e140b7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animal Travel/Animation/title01.controller using Guid(5d988f70738c73e4eb2eebf4e140b7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3500640c6eb79e96fb099e32e4db9dd0') in 0.006746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057758 seconds.
+  path: Assets/Animal Travel/Animation/Title01.anim
+  artifactKey: Guid(ac901ff9e0f892d41b66e04eb62a1459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animal Travel/Animation/Title01.anim using Guid(ac901ff9e0f892d41b66e04eb62a1459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894aa8719af68f04e3b280b0b556c288') in 0.006153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006684 seconds.
+  path: Assets/DOTween/Modules/DOTweenModuleAudio.cs
+  artifactKey: Guid(8710267224493a8468b29f424919bea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Modules/DOTweenModuleAudio.cs using Guid(8710267224493a8468b29f424919bea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be69e245011222bd0d137b356194042') in 0.005087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018644 seconds.
+  path: Assets/DOTween/Modules/DOTweenModuleUI.cs
+  artifactKey: Guid(a71c536efd1736e48888887644d2ec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Modules/DOTweenModuleUI.cs using Guid(a71c536efd1736e48888887644d2ec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8f5bb9b1033380437bd71de679c7d9') in 0.005384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019299 seconds.
+  path: Assets/MiniGame/Script/Event Manager/MoveFloor.cs
+  artifactKey: Guid(12474d9d9a677a641b25b899dc01e399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Script/Event Manager/MoveFloor.cs using Guid(12474d9d9a677a641b25b899dc01e399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2f30d706a64eb582e4d1557d133c28') in 0.005350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026593 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fffa268c84671929c23e14b3366a74a') in 0.005908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010948 seconds.
+  path: Assets/MiniGame/Script/Event Manager/FadeScene.cs
+  artifactKey: Guid(5f772a763b2ab2a46b92ddb7be82b8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Script/Event Manager/FadeScene.cs using Guid(5f772a763b2ab2a46b92ddb7be82b8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffd1e71fa3d345ab42cd25be175dc1a') in 0.005620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018601 seconds.
+  path: Assets/MiniGame/Texture/Background/Object/Materials/Tree01.mat
+  artifactKey: Guid(db8838eab8ff60a49b4b84eaa80c1543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Texture/Background/Object/Materials/Tree01.mat using Guid(db8838eab8ff60a49b4b84eaa80c1543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b681e96b1cfd3b4ffd43e47cc4bf7010') in 0.015678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009825 seconds.
+  path: Assets/MiniGame/Script/Player Manager/CollisionChecker.cs
+  artifactKey: Guid(ea66e2d90d2b27b44b9faf73999a1c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Script/Player Manager/CollisionChecker.cs using Guid(ea66e2d90d2b27b44b9faf73999a1c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62fb5821a386a2a08738a8b3ba928e4') in 0.005921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013029 seconds.
+  path: Assets/MiniGame/Script/GameManager.cs
+  artifactKey: Guid(b69db82654e438942b6949c5f986be62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Script/GameManager.cs using Guid(b69db82654e438942b6949c5f986be62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bacb21ba77df58331a9fb5fc4080114') in 0.005372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028040 seconds.
+  path: Assets/DOTween/Modules/DOTweenModuleUnityVersion.cs
+  artifactKey: Guid(d5523bd7b21463e4eb3b675a976c429a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Modules/DOTweenModuleUnityVersion.cs using Guid(d5523bd7b21463e4eb3b675a976c429a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439bf238a9e737e8a459f3026a444c96') in 0.005581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059661 seconds.
+  path: Assets/Animal Travel/Animation/Head01.controller
+  artifactKey: Guid(1bdbc7cc20e2ab74bad4e4527c930b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animal Travel/Animation/Head01.controller using Guid(1bdbc7cc20e2ab74bad4e4527c930b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecdca0fa0a2be18bf2e1c8082103865') in 0.006071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012596 seconds.
+  path: Assets/Animal Travel/Animation/RUN.anim
+  artifactKey: Guid(2a79156e9bc246242adfef6e6e0804dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animal Travel/Animation/RUN.anim using Guid(2a79156e9bc246242adfef6e6e0804dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7c81f078a124b342a647ffb742c173') in 0.006832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015159 seconds.
+  path: Assets/MiniGame/Script/Event Manager/Gravtiy.cs
+  artifactKey: Guid(ca7c72fedbfbcc343a09acf3e1c722d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Script/Event Manager/Gravtiy.cs using Guid(ca7c72fedbfbcc343a09acf3e1c722d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74706bec15698e5fc976a77980981ba') in 0.005238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006249 seconds.
+  path: Assets/MiniGame/Texture/Particle/Material/Ring2.mat
+  artifactKey: Guid(16bae3d0592a5bb40962ea61ac7012ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Texture/Particle/Material/Ring2.mat using Guid(16bae3d0592a5bb40962ea61ac7012ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45f01873b1fdc4f9b5dd3f2845dd706') in 0.022550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.208466 seconds.
+  path: Assets/MiniGame/Script/Event Manager
+  artifactKey: Guid(ef0adc5dfb8dcf8429497b268f848a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Script/Event Manager using Guid(ef0adc5dfb8dcf8429497b268f848a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba5b3efcea3c1346ab5dc1fef3433a8') in 0.005566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.097598 seconds.
+  path: Assets/MiniGame/Texture/Particle
+  artifactKey: Guid(291c8a348757a304897e093469f1bac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Texture/Particle using Guid(291c8a348757a304897e093469f1bac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782721aebb6b66578640817a7d039989') in 0.005177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054533 seconds.
+  path: Assets/MiniGame/Prefabs/Object
+  artifactKey: Guid(b4d2b65e9fa1c7d499dec123e6a80169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Prefabs/Object using Guid(b4d2b65e9fa1c7d499dec123e6a80169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392de2f0aa88d75f6006b0d43ea10103') in 0.005490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011895 seconds.
+  path: Assets/MiniGame/Script/Player Manager/PortalChild.cs
+  artifactKey: Guid(923ba36c52e4094408b16b5919fd272a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Script/Player Manager/PortalChild.cs using Guid(923ba36c52e4094408b16b5919fd272a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b71a77bbf988895dccf4dd10e6d807') in 0.005140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046587 seconds.
+  path: Assets/MiniGame/Prefabs
+  artifactKey: Guid(cb4c9af0233918c4cb3b2091737d0252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Prefabs using Guid(cb4c9af0233918c4cb3b2091737d0252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b146f4f26af9592dbd8e303b6b72d9') in 0.007510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053254 seconds.
+  path: Assets/MiniGame/Prefabs/WJPrefab
+  artifactKey: Guid(957471e14a6dcca4bbb2f4daa07fa3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Prefabs/WJPrefab using Guid(957471e14a6dcca4bbb2f4daa07fa3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d010baa22380f1bd24477228c72da9') in 0.005167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035044 seconds.
+  path: Assets/MiniGame/Script/SceneManager/MainManager.cs
+  artifactKey: Guid(2563889f57d19d64ab11891cad9ac3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Script/SceneManager/MainManager.cs using Guid(2563889f57d19d64ab11891cad9ac3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4667d7c770604322b3e055d3ec84b18') in 0.005245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019599 seconds.
+  path: Assets/DOTween/Modules/DOTweenModulePhysics.cs
+  artifactKey: Guid(756e1d28429570b48902c4366ee1eef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Modules/DOTweenModulePhysics.cs using Guid(756e1d28429570b48902c4366ee1eef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db17d1d0be1a828370e9f7c833167b9') in 0.005066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004185 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df75b7d1a31c5b4f73fd45661b403b04') in 0.005701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046897 seconds.
+  path: Assets/Animal Travel/Animation/Title02.anim
+  artifactKey: Guid(b431bd6722b95f04f9833834c34cded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animal Travel/Animation/Title02.anim using Guid(b431bd6722b95f04f9833834c34cded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5ae28d349c4f3ea9f37692b07aa7c8') in 0.005885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033764 seconds.
+  path: Assets/DOTween/Modules/DOTweenModuleUtils.cs
+  artifactKey: Guid(55f9f0c5860cdaa40962cc52852e1b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Modules/DOTweenModuleUtils.cs using Guid(55f9f0c5860cdaa40962cc52852e1b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3e044c8cb262992fb12063b15074d2') in 0.005129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.163010 seconds.
+  path: Assets/MiniGame/Script/Event Manager/Timer.cs
+  artifactKey: Guid(d6b535341662b404abe5f0181966872d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Script/Event Manager/Timer.cs using Guid(d6b535341662b404abe5f0181966872d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfd0e2c851decbfd554ff5293cdfaa4') in 0.005380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016369 seconds.
+  path: Assets/DOTween/DOTween.dll
+  artifactKey: Guid(2d963d7e07c5721469bfe226731e6423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/DOTween.dll using Guid(2d963d7e07c5721469bfe226731e6423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99262c47976286769d0a5c62c50fb74') in 0.008167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027723 seconds.
+  path: Assets/Animal Travel/Animation/WALK.anim
+  artifactKey: Guid(af47e0c288361ec479f6e70ed6b4d153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animal Travel/Animation/WALK.anim using Guid(af47e0c288361ec479f6e70ed6b4d153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a2f4858d68db50399c5a333378afaa') in 0.006284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055418 seconds.
+  path: Assets/DOTween/Modules/DOTweenModulePhysics2D.cs
+  artifactKey: Guid(6a686b714b063b141a21ccad800a5596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Modules/DOTweenModulePhysics2D.cs using Guid(6a686b714b063b141a21ccad800a5596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28803083e0ed98c2a5879c0185d1b09') in 0.007903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021322 seconds.
+  path: Assets/MiniGame/Script/Event Manager/SettingAnim.cs
+  artifactKey: Guid(e4c9bb6ea89d58d4a816ed5132a703a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Script/Event Manager/SettingAnim.cs using Guid(e4c9bb6ea89d58d4a816ed5132a703a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b0d81e521d5f1fd19fd74b86006558') in 0.005236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013454 seconds.
+  path: Assets/DOTween/Editor/DOTweenEditor.dll
+  artifactKey: Guid(278a9f6285d44e148892d5624e36e951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Editor/DOTweenEditor.dll using Guid(278a9f6285d44e148892d5624e36e951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e31a3c2120c9b23acf7b26d78534ad') in 0.005306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.141974 seconds.
+  path: Assets/MiniGame/Texture/Character
+  artifactKey: Guid(8c9501dd7ee4da44c9726225240d7c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Texture/Character using Guid(8c9501dd7ee4da44c9726225240d7c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93265cb9287a6084911747359be559ec') in 0.005219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054544 seconds.
+  path: Assets/DOTween/Modules/DOTweenModuleSprite.cs
+  artifactKey: Guid(f1b5f18812819b54f8b2b4bf586879dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DOTween/Modules/DOTweenModuleSprite.cs using Guid(f1b5f18812819b54f8b2b4bf586879dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e2709ef7dcb9762634daf9ba9c1578') in 0.004975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006526 seconds.
+  path: Assets/MiniGame/Script/Event Manager/DarkScreen.cs
+  artifactKey: Guid(6d9532ec72510cd41b087ef7a397ccac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Script/Event Manager/DarkScreen.cs using Guid(6d9532ec72510cd41b087ef7a397ccac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e1e1f586a8409d21cae829b15ed728') in 0.005168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 747.100103 seconds.
+  path: Assets/MiniGame/Scene/Game58.unity
+  artifactKey: Guid(c518244d6537ef747848fcfa66465a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniGame/Scene/Game58.unity using Guid(c518244d6537ef747848fcfa66465a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b807ed9f1863e99970837aae83286d57') in 0.012157 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
